@@ -1,4 +1,4 @@
-# 🚀 Portfólio Premium - KaioBRL
+# 🚀 Portfólio Premium -
 
 Um portfólio web moderno, dinâmico e bilíngue, desenvolvido com foco em experiência do usuário (UX), acessibilidade e alta performance.
 
