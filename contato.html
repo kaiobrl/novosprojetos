@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="contact_page_title">Contato | Meus Projetos</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./index.css">
+  <script src="./contato.js" defer></script>
+</head>
+
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-glow" id="cursor-glow"></div>
+
+  <header>
+    <div class="header-top">
+      <a href="index.html" class="back-link" data-i18n="back_home">← Voltar</a>
+      <div class="controls">
+        <button id="toggleLang" class="toggle-lang" type="button" aria-label="Alterar idioma">PT</button>
+        <button id="toggleTema" class="toggle-tema" type="button" aria-label="Alternar tema escuro/claro">🌙</button>
+      </div>
+    </div>
+    <h1 data-i18n="contact_title">Fale Comigo</h1>
+    <p style="color: var(--text-muted);" data-i18n="contact_subtitle">Envie uma mensagem e responderei o mais rápido possível</p>
+  </header>
+
+  <main class="contact-main">
+    <div class="contact-card">
+      <form id="contact-form" action="https://formspree.io/f/mqakvjge" method="POST">
+        <div class="form-group">
+          <label for="name" data-i18n="label_name">Nome</label>
+          <input type="text" id="name" name="name" required placeholder="Seu nome completo" data-i18n-placeholder="placeholder_name">
+        </div>
+        
+        <div class="form-group">
+          <label for="email" data-i18n="label_email">E-mail</label>
+          <input type="email" id="email" name="email" required placeholder="seu@email.com" data-i18n-placeholder="placeholder_email">
+        </div>
+        
+        <div class="form-group">
+          <label for="subject" data-i18n="label_subject">Assunto</label>
+          <input type="text" id="subject" name="subject" required placeholder="Qual o assunto?" data-i18n-placeholder="placeholder_subject">
+        </div>
+        
+        <div class="form-group">
+          <label for="message" data-i18n="label_message">Mensagem</label>
+          <textarea id="message" name="message" required rows="5" placeholder="Sua mensagem aqui..." data-i18n-placeholder="placeholder_message"></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn" data-i18n="btn_send">Enviar Mensagem</button>
+        <div id="form-status" class="form-status"></div>
+      </form>
+    </div>
+  </main>
+
+  <footer style="text-align: center; padding: 4rem 1rem; color: var(--text-muted); font-size: 0.875rem;">
+    &copy; 2026 - Todos os direitos reservados
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Projetos | Portfólio</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  
+  <!-- Icons: Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js" defer></script>
+</head>
+
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-glow" id="cursor-glow"></div>
+
+  <header>
+    <div class="status-container" aria-label="Status profissional">
+      <span class="status-dot"></span>
+      <span class="status-text" data-i18n="status">Disponível para novos projetos</span>
+    </div>
+    <div class="header-top">
+      <h1 data-i18n="title">Meus Projetos</h1>
+      <div class="controls">
+        <button id="toggleLang" class="toggle-lang" type="button" aria-label="Alterar idioma">PT</button>
+        <button id="toggleTema" class="toggle-tema" type="button" aria-label="Alternar tema escuro/claro">🌙</button>
+      </div>
+    </div>
+    <p style="color: var(--text-muted);" data-i18n="subtitle">Uma coleção dos meus trabalhos e experimentos web</p>
+    <div class="toolbar">
+      <input 
+        type="text" 
+        id="busca" 
+        class="busca-input" 
+        placeholder="Buscar projetos..." 
+        aria-label="Buscar projetos por nome ou descrição"
+        data-i18n-placeholder="search_placeholder"
+      >
+      <div id="filtros" class="filtros" aria-label="Filtros de categoria"></div>
+      <div class="ordenacao" aria-label="Ordenação de projetos">
+        <label for="ordenar" data-i18n="sort_label">Ordenar:</label>
+        <select id="ordenar" class="ordenar-select" aria-label="Selecione a ordenação"></select>
+      </div>
+    </div>
+  </header>
+
+  <main id="projetos-wrapper">
+    <div id="status-live" class="sr-only" aria-live="polite"></div>
+    <div id="projetos">
+      <!-- Projetos serão carregados dinamicamente via JavaScript -->
+    </div>
+  </main>
+
+  <section id="skills" class="skills-section">
+    <div class="skills-container">
+      <h2 data-i18n="skills_title">Minhas Tecnologias</h2>
+      <div class="skills-grid">
+        <div class="skill-item" title="HTML5"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div>
+        <div class="skill-item" title="CSS3"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div>
+        <div class="skill-item" title="JavaScript"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+        <div class="skill-item" title="React"><i class="devicon-react-original colored"></i><span>React</span></div>
+        <div class="skill-item" title="Node.js"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+        <div class="skill-item" title="Git"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+        <div class="skill-item" title="Sass"><i class="devicon-sass-original colored"></i><span>Sass</span></div>
+        <div class="skill-item" title="Prisma"><i class="devicon-prisma-plain colored"></i><span>Prisma</span></div>
+        <div class="skill-item" title="MySQL"><i class="devicon-mysql-plain colored"></i><span>MySQL</span></div>
+        <div class="skill-item" title="PostgreSQL"><i class="devicon-postgresql-plain colored"></i><span>PostgreSQL</span></div>
+        <div class="skill-item" title="MongoDB"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+        <div class="skill-item" title="Bootstrap"><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></div>
+        <div class="skill-item" title="Tailwind CSS"><i class="devicon-tailwindcss-plain colored"></i><span>Tailwind CSS</span></div>
+        <div class="skill-item" title="TypeScript"><i class="devicon-typescript-plain colored"></i><span>TypeScript</span></div>
+        <div class="skill-item" title="Next.js"><i class="devicon-nextjs-plain colored"></i><span>Next.js</span></div>
+        <div class="skill-item" title="Vite"><i class="devicon-vite-plain colored"></i><span>Vite</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato-section">
+    <div class="contato-container">
+      <h2 data-i18n="cta_title">Vamos trabalhar juntos?</h2>
+      <p data-i18n="cta_subtitle">Estou sempre em busca de novos desafios e colaborações criativas.</p>
+      <div class="contato-links">
+        <a href="contato.html" class="contato-link email" data-i18n="cta_form_btn">Enviar Mensagem (Formulário)</a>
+        <a href="https://github.com/kaiobrl" target="_blank" rel="noopener noreferrer" class="contato-link github">GitHub</a>
+        <a href="https://linkedin.com/in/kaiobrl" target="_blank" rel="noopener noreferrer" class="contato-link linkedin">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog" role="document">
+      <button class="modal-close" type="button" aria-label="Fechar modal">×</button>
+      <img class="modal-thumb" src="" alt="" aria-hidden="true">
+      <div class="modal-content">
+        <h2 class="modal-title"></h2>
+        <div class="modal-meta">
+          <span class="modal-category"></span>
+        </div>
+        <p class="modal-description"></p>
+        <a class="modal-link" href="" target="_blank" rel="noopener noreferrer">Abrir Projeto</a>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align: center; padding: 4rem 1rem; color: var(--text-muted); font-size: 0.875rem;">
+    &copy; 2026 - Todos os direitos reservados
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+[
+  {
+    "nome": "Fullstack Developer",
+    "url": "https://kaiobrl.github.io/",
+    "categoria": "Portfólio",
+    "categoria_en": "Portfolio",
+    "descricao": "Landing page pessoal com projetos e informações de contato.",
+    "descricao_en": "Personal landing page with projects and contact information."
+  },
+  {
+    "nome": "Agencia digital",
+    "url": "https://kaiobrl.github.io/Agenciadigital/",
+    "categoria": "Agência",
+    "categoria_en": "Agency",
+    "descricao": "Página de agência digital com seções de serviços e portfólio.",
+    "descricao_en": "Digital agency page with services and portfolio sections."
+  },
+  {
+    "nome": "Frutas e verduras frescas",
+    "url": "https://kaiobrl.github.io/HortifrutiSG/",
+    "categoria": "E-commerce",
+    "categoria_en": "E-commerce",
+    "descricao": "Loja online de hortifrúti com visual fresco e foco em produtos.",
+    "descricao_en": "Online grocery store with a fresh look and product focus."
+  },
+  {
+    "nome": "Vitrine digital para hortifrúti",
+    "url": "https://kaiobrl.github.io/Hortifruit-Online/",
+    "categoria": "E-commerce",
+    "categoria_en": "E-commerce",
+    "descricao": "Vitrine digital para hortifrúti com layout responsivo.",
+    "descricao_en": "Digital showcase for produce with a responsive layout."
+  },
+  {
+    "nome": "Arte Digital ao seu Alcance",
+    "url": "https://kaiobrl.github.io/Loja.Digital/",
+    "categoria": "E-commerce",
+    "categoria_en": "E-commerce",
+    "descricao": "Plataforma de loja virtual com proposta moderna e simples.",
+    "descricao_en": "Online store platform with a modern and simple approach."
+  },
+  {
+    "nome": "anotacoes_rapidas",
+    "url": "https://kaiobrl.github.io/anotacoes_rapidas/",
+    "categoria": "Ferramenta",
+    "categoria_en": "Tool",
+    "descricao": "Aplicativo de notas rápidas para uso diário.",
+    "descricao_en": "Quick notes app for daily use."
+  },
+  {
+    "nome": "albertech_frontend",
+    "url": "https://kaiobrl.github.io/albertech_frontend/",
+    "categoria": "Portfólio",
+    "categoria_en": "Portfolio",
+    "descricao": "Portfólio com foco em design front-end e tecnologias modernas.",
+    "descricao_en": "Portfolio focusing on front-end design and modern technologies."
+  },
+  {
+    "nome": "Desenvolvedor Web",
+    "url": "https://kaiobrl.github.io/Desenvolvedor-Web/",
+    "categoria": "Landing",
+    "categoria_en": "Landing",
+    "descricao": "Landing page para desenvolvedor web com CTA de contato.",
+    "descricao_en": "Developer landing page with a contact call to action."
+  },
+  {
+    "nome": "Future Tech Conference 2024",
+    "url": "https://kaiobrl.github.io/cssmoderno/",
+    "categoria": "Evento",
+    "categoria_en": "Event",
+    "descricao": "Demonstração de estilo moderno em CSS para sites atuais.",
+    "descricao_en": "Demonstration of modern CSS styling for current websites."
+  },
+  {
+    "nome": "A Melhor Tapioca da Cidade",
+    "url": "https://kaiobrl.github.io/DevTapioca/",
+    "categoria": "Landing",
+    "categoria_en": "Landing",
+    "descricao": "Landing page de produto com seções chamativas.",
+    "descricao_en": "Product landing page with eye-catching sections."
+  },
+  {
+    "nome": "Construindo o Futuro Digital",
+    "url": "https://kaiobrl.github.io/landingpage/",
+    "categoria": "Landing",
+    "categoria_en": "Landing",
+    "descricao": "Exemplo de landing page com foco em conversão.",
+    "descricao_en": "Landing page example focused on conversion."
+  },
+  {
+    "nome": "Nails Agendamento",
+    "url": "https://kaiobrl.github.io/NailsAgendamento/",
+    "categoria": "Agenda",
+    "categoria_en": "Schedule",
+    "descricao": "Sistema de agendamento para serviços de beleza.",
+    "descricao_en": "Scheduling system for beauty services."
+  },
+  {
+    "nome": "Sua loja online para tudo",
+    "url": "https://storeloja-on.vercel.app/",
+    "categoria": "E-commerce",
+    "categoria_en": "E-commerce",
+    "descricao": "Sistema de e-commerce hospedado na Vercel.",
+    "descricao_en": "E-commerce system hosted on Vercel."
+  },
+  {
+    "nome": "Catálogo Digital",
+    "url": "https://catalogonanuvem.vercel.app/",
+    "categoria": "E-commerce",
+    "categoria_en": "E-commerce",
+    "descricao": "Catálogo online para visualização de produtos com interface moderna.",
+    "descricao_en": "Online product catalog with a modern interface."
+  }
+]
